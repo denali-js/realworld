@@ -1,19 +1,23 @@
-# Realworld
+# ![RealWorld Example App](logo.png)
 
-An awesome app built on the [Denali framework](http://denalijs.org/).
-
-
-## Installation
-
-1. Clone the repo down
-2. `npm install -g denali denali-cli`
-3. `npm install`
-4. `denali server`
-5. Hit [localhost:3000](http://localhost:3000)
+> ### Denali codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) spec and API.
 
 
-## Tests
+### [Demo]()&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/gothinkster/realworld)
 
-```sh
-$ denali test
-```
+
+This codebase was created to demonstrate a fully fledged fullstack application built with **Denali** including CRUD operations, authentication, routing, pagination, and more.
+
+We've gone to great lengths to adhere to the **Denali** community styleguides & best practices.
+
+For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
+
+
+# How it works
+
+> Describe the general architecture of your app here
+
+# Getting started
+
+> npm install, npm start, etc.
+
