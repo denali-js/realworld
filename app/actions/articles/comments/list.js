@@ -1,4 +1,4 @@
-import ApplicationAction from '../application';
+import ApplicationAction from '../../application';
 
 export default class ListComments extends ApplicationAction {
 

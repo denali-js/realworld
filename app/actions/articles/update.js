@@ -1,11 +1,11 @@
 import ApplicationAction from '../application';
+import OwnArticles from './-own-articles';
 
-export default class UpdateArticle extends ApplicationAction {
+export default class UpdateArticle extends ApplicationAction.mixin(OwnArticles) {
 
-  async respond({ body, params }) {
-    let article = await this.db.queryOne('article', { slug: params.id });
-    Object.assign(article, body);
-    return article.save();
+  async respond({ body }) {
+    Object.assign(this.article, body);
+    return this.article.save();
   }
 
 }

@@ -3,6 +3,6 @@ import ApplicationModel from './application';
 
 export default class Tag extends ApplicationModel {
 
-  static name = attr('text');
+  static title = attr('text');
 
 }
