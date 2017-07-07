@@ -10,10 +10,13 @@
     "node": ">=6.2.0"
   },
   "dependencies": {
+    "@types/bcryptjs": "^2.4.0",
+    "bcryptjs": "^2.4.3",
     "bluebird": "^3.4.6",
-    "eslint-config-denali": "^1.1.2",
     "denali": "0.0.26",
     "denali-cli": "0.0.x",
+    "eslint-config-denali": "^1.1.2",
+    "inflection": "^1.12.0",
     "lodash": "^4.0.0"
   },
   "devDependencies": {

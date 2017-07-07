@@ -3,7 +3,7 @@ export default function drawRoutes(router) {
   router.namespace('/api', (api) => {
 
     // Users
-    api.post('/user/login', 'users/login');
+    api.post('/users/login', 'users/login');
     api.post('/users', 'users/register');
     api.get('/user', 'users/show');
     api.put('/user', 'users/update');

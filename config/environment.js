@@ -17,7 +17,8 @@ export default function environmentConfig(environment) {
     ormAdapter: 'memory',
     database: {
 
-    }
+    },
+    passwordStretches: 8
   };
 
   if (environment === 'development') {
